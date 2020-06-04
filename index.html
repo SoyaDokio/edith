@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Notepad</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style type="text/css">
+        * {
+            font-family: Verdana, "Bitstream Vera Sans", sans-serif;
+        }
+
+        body {
+            background-color: #f6f6f6;
+            background-image: url("absurdity.png");
+        }
+        li {
+            margin: 7px 0;
+        }
+        code {
+            color: white;
+            background-color: #f8bb22;
+            padding: 1px 4px;
+            border: solid 1px #edb015;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Box-body p-5">
+        <h1>Edith</h1>
+        <p>A quick small wiki, perfect for pasting quick texts or code and sharing it between friends.</p>
+        <p>Don't worry about saving, it saves at every key stroke. Think of it as a magic zero-UI Web notepad.</p>
+        <p>Try it out at <a href="http://edit.sunfox.org/any-page-name"
+                rel="nofollow">http://edit.sunfox.org/any-page-name</a>.</p>
+        <h2>Usage</h2>
+        <ul>
+            <li><code>/any-page-name</code>: type what you want, it's saved automagically!</li>
+            <li><code>/any-page-name.txt</code>: raw text version.</li>
+            <li><code>/any-page-name.html</code>: HTML version through the <a
+                    href="http://daringfireball.net/projects/markdown/" rel="nofollow">Markdown</a> syntax.</li>
+            <li><code>/any-page-name.remark</code>: Slideshow version using <a
+                    href="https://github.com/gnab/remark">Remark</a>.</li>
+            <li><code>/any-page-name.graphviz</code>: Graph version of the dot syntax using <a
+                    href="https://github.com/mdaines/viz.js/">Viz</a>, see <a href="http://www.webgraphviz.com/"
+                    rel="nofollow">WebGraphViz</a> for examples.</li>
+        </ul>
+        <p>Keyboard shortcut <code>Ctrl</code>+<code>E</code> switches from edit mode to HTML mode.</p>
+        <h3>Favicon</h3>
+        <p><img src="example.gif" alt="Magic Favicon changing as the page updates" style="max-width:100%;"></p>
+        <p>The favicon changes as the page updates and is also an indicator that the page is currently saving or not.
+        </p>
+        <h3>REST</h3>
+        <p>Edith is also a RESTful API. So go ahead and try to <code>PUT</code> or <code>DELETE</code> on these URLs.
+        </p>
+    </div>
+</body>
+
+</html>

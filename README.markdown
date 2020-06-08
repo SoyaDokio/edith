@@ -36,7 +36,7 @@ Install it yourself
 Download the files. For example, using git:
 
 ```sh
-$ git clone https://github.com/sunny/edith.git
+$ git clone https://github.com/SoyaDokio/edith.git
 $ cd edith
 ```
 

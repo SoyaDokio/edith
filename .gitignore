@@ -1,6 +1,6 @@
 config.php
 .htaccess
-data/
+# data/
 tmp/
 public/script.js
 public/script.map
